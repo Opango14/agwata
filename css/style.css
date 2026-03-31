@@ -55,6 +55,13 @@ nav a {
 }
 
 .foods {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.food {
     width: 250px;
     background: white;
     padding: 10px;
