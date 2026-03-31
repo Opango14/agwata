@@ -19,3 +19,26 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
+.hero {
+    height: 500px;
+    background: url(../images/hero.jpg) center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: burlywood;
+    padding: 12px 25px;
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+}
